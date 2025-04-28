@@ -96,15 +96,3 @@ python app.py
 ```
 Then open your browser at: [http://localhost:5000](http://localhost:5000)
 
-## Challenges Faced
-- Handling large time-series datasets efficiently
-- Managing connection pooling to Railway PostgreSQL
-- Optimizing real-time ingestion and batch aggregation
-
-## Future Work
-- Add Kafka Streams for real-time trend analysis
-- Dockerize the full application (Flask + ETL + Kafka)
-- Deploy Flask dashboard publicly (using Railway or Render)
-
-## License
-This project is licensed under the MIT License.
