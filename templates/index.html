@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Energy Dashboard</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background: #f8f9fa;
+            margin: 0;
+            padding: 20px;
+        }
+        h2 {
+            color: #333;
+        }
+        img {
+            max-width: 90%;
+            height: auto;
+            margin-bottom: 40px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+    </style>
+</head>
+<body>
+    <h2>Energy Generation by Type (Stacked Bar)</h2>
+    <img src="{{ url_for('static', filename='graphs/energy_by_type_stacked.png') }}" alt="Energy by Type">
+
+    <h2>Total Energy Generation Over Time</h2>
+    <img src="{{ url_for('static', filename='graphs/total_energy_line.png') }}" alt="Total Energy Line Chart">
+
+    <h2>Monthly Breakdown of Renewable Energy Contributions</h2>
+    <img src="{{ url_for('static', filename='graphs/individual_trends.png') }}" alt="Type Trends Over Time">
+
+    <h2>Forecast of Total Energy Generation</h2>
+    <img src="{{ url_for('static', filename='graphs/energy_forecast.png') }}" alt="Forecast Energy Graph" width="100%">
+
+</body>
+</html>
