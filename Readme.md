@@ -13,7 +13,8 @@ This project presents a complete data engineering workflow for renewable energy 
 - Docker & Docker Compose: For containerizing Kafka and Zookeeper services
 
 ## Project Architecture
-![Architecture Diagram](architecture.png)
+![arcnitecture](https://github.com/user-attachments/assets/32fa9ef9-ffa8-4898-834b-290c90df7f45)
+
 
 ## Features
 - Real-time streaming of renewable energy data using Kafka
